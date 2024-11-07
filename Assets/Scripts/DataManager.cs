@@ -9,6 +9,7 @@ public class DataManager : MonoBehaviour
     private string _xmlAccelerationData;
     private float _timer = 0f;
     private bool doDataThingy = true;
+    private float thing = 0;
 
    
     public List<DataSnapshot> data = new List<DataSnapshot>();
